@@ -2,11 +2,14 @@ import React from "react";
 
 function BestOffers() {
   return (
-    <div>
+    <div className="px-12 py-4">
       <div>
-        <p className=" ">Best Offers for you</p>
-        <p className="">
-          Feast on savings! Explore exclusive online deals. 🍔🍕 #FoodieSavings
+        <p className=" text-4xl font-bold flex gap-4">
+          Best <p className="text-red-600"> Offer </p> for you
+        </p>
+        <p className="font-semibold pt-2 flex">
+          Feast on savings! Explore exclusive online deals. 🍔🍕{" "}
+          <p className="text-red-600">#FoodieSavings</p>
         </p>
       </div>
       <div className="flex justify-around py-16  ">
