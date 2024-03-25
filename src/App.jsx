@@ -1,11 +1,14 @@
 import BestOffers from "./Components/BestOffers";
 import Footer from "./Components/Footer";
+import FreshAddition from "./Components/FreshAddition";
+
 
 function App() {
   return (
     <>
       <BestOffers />
-      <Footer />
+      <FreshAddition />
+      {/* <Footer /> */}
     </>
   );
 }
