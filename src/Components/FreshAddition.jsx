@@ -6,31 +6,7 @@ const FreshAddition = () => {
       <p>Fresh Additions</p>
 
       <div className="p-4 bg-green-500 flex flex-row justify-center items-center  ">
-        <div className="flex justify-center items-center w-1/2">
-          <div className="  w-44  flex flex-col border-2 border-blue-600">
-            <img src="src/assets/order-food.gif" className="" alt="" />
-            <div className="flex flex-col justify-center items-center text-center">
-              <p>Easy to order</p>
-              <p>Easy to order. Whatever you want.</p>
-            </div>
-          </div>
-
-          <div className="  w-44  flex flex-col border-2 border-blue-600">
-            <img src="src/assets/quality.gif" className="" alt="" />
-            <div className="flex flex-col justify-center items-center text-center">
-              <p>Easy to order</p>
-              <p>Easy to order. Whatever you want.</p>
-            </div>
-          </div>
-
-          <div className="  w-44  flex flex-col border-2 border-blue-600">
-            <img src="src/assets/delivery-boy.gif" className="" alt="" />
-            <div className="flex flex-col justify-center items-center text-center">
-              <p>Easy to order</p>
-              <p>Easy to order. Whatever you want.</p>
-            </div>
-          </div>
-        </div>
+       
 
         <div className="w-1/2">
           <p>Your Food Delivery Partner</p>
